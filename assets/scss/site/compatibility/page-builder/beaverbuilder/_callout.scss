@@ -34,6 +34,16 @@ body .fl-callout {
 		}
 	}
 
+	&-content {
+		padding: var(--cp-gap--md);
+	}
+	
+	&-has-photo {
+		.fl-callout-content {
+			padding: 0;
+		}
+	}
+	
 	&-photo-above-title {
 		.fl-callout-title, .fl-callout-text-wrap, .fl-callout-subtitle {
 			padding: 0;
